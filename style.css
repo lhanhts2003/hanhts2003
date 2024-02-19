@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+header{width:100%; height: 60px; background-color:#D0CFCF
+}
+.banner{width: 100%; min-height: 300px}
+aside{width: 30%; min-height: 500px; padding: 15px
+}
+main{width: 70%; min-height: 500px; background-color:aquamarine
+}
+footer{width: 100%;min-height: 200px; background-color: #EEEEEE
+}
+.bg-xanh{width:100%; min-height: 200px; background-color: #5ACDFD
+}
+.menu ul{margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{padding-top: 20px
+}
+.menu ul li a{padding: 10px 20px; text-decoration: none; color: #5D5D5D; font-size: 17px; font-weight: 600; border-radius: 16px
+}
+.menu ul li a:hover{background-color: darkred; color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:50px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+.text-do{color: darkred
+}
+aside ul{margin: 0; padding:0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{padding: 10px; display: block; text-decoration: none; color: #555555
+}
+aside ul li{border-bottom: 1px solid #666666
+}
+aside ul li a:hover{background-color: darkred; color: white
+}
